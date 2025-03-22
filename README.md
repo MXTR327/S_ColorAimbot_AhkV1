@@ -10,7 +10,6 @@
 **Paso 3: Uso y Configuración**
 
 **Combinaciones de Teclas:**
-* `Fin`: Muestra/Oculta el panel de configuración gráfica.
 * `F5`: Recarga el script.
 * `F8`: Activa/Desactiva el script (estado inicial en `script_activo_por_defecto`).
 * `F12`: Cierra la aplicación.
@@ -18,22 +17,15 @@
 
 **Explicación de Variables en `config.ini`:**
 
-### Sección: *Teclas*
-- *mostrar_ocultar_panel*: Tecla para mostrar/ocultar el panel (Ej: `End`).
-- *mostrar_ocultar_areas*: Tecla para mostrar/ocultar areas (Ej: `+^d`).
-- *reiniciar*: Tecla para reiniciar el script (Ej: `F5`).
-- *pausar*: Tecla para pausar el script (Ej: `F8`).
-- *salir*: Tecla para cerrar el script (Ej: `F12`).
-
 ### Sección: *Mouse*
 - *aimbot_click_izquierdo*: Activa el aimbot al hacer clic izquierdo (`true`/`false`).
 - *aimbot_click_derecho*: Activa el aimbot al hacer clic derecho (`true`/`false`).
 
 ### Sección: *General*
 - *script_activo_por_defecto*: Estado inicial del script (`true`/`false`).
-- *velocidad_aim_x*: **Velocidad horizontal del aimbot (1-250).**  
+- *velocidad_aim_x*: **Velocidad horizontal del aimbot (1-100).**  
   Ej: `60` = 60% de velocidad.
-- *velocidad_aim_Y*: **Velocidad vertical del aimbot (1-250).**  
+- *velocidad_aim_Y*: **Velocidad vertical del aimbot (1-100).**  
   Ej: `50` = 50% de velocidad.
 
 ### Sección: *Color*
@@ -44,6 +36,8 @@
 ### Sección: *Offsets*
 - *head_offset_x*: Compensación horizontal del punto de mira (0-15).
 - *head_offset_y*: Compensación vertical del punto de mira (0-50).
+- *maxDistPixelsAgrupamiento*: Agrupamiento de lista de pixels encontrados (0-~~).
+- *minPixelsGrupo*: Minimo requerido para considerarlo grupo (0-~~).
 
 ### Sección: *Área_Aimbot*
 - *area_escaneada_x*: Ancho del área de escaneo (1-500).
@@ -54,16 +48,8 @@
 - *antishake_x*: Área horizontal ignorada al detectar movimiento (1-30)).
 - *antishake_y*: Área vertical ignorada al detectar movimiento (1-30).
 
-### Sección: *TriggerBot*
-- *activar_triggerbot*: Disparo automático al detectar color (`true`/`false`).
-- *tamano_area_triggerbot*: Tamaño del área de activación (1-50).
-- *tiempo_antes_de_disparo*: Retardo antes de disparar (milisegundos).
-
 ### Sección: *Experimentos*
 - *desactivar_escalado_dpi*: Mejora rendimiento en pantallas HD (`true`/`false`).
-- *limite_acumulacion_recoil*: Máximo retroceso acumulable (0-100).
-- *intensidad_control_retroceso*: Fuerza de compensación de retroceso (0-10).
-- *compensacion_retroceso*: Porcentaje de compensación vertical (0-100).
 - *anti_deteccion_aimbot*: Añade variabilidad aleatoria al movimiento evitando deteccion de anticheats (`true`/`false`).
 - *humanizacion*: Limita la velocidad máxima del aimbot para parecer humano (`true`/`false`).
 - *intentos_busqueda*: Número de intentos de detección por ciclo (1-15).
