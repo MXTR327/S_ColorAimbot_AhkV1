@@ -47,13 +47,34 @@
 - *aimVelocidadY*: **Velocidad vertical del aimbot (1-100).**  
   Ej: `50` = 50% de velocidad.
 
-### Sección: *Offsets*
-- *offsetX*: Compensación horizontal del punto de mira (0-15).
-- *offsetY*: Compensación vertical del punto de mira (0-50).
-
 ### Sección: *Mouse*
 - *aimClickIzquierdo*: Activa el aimbot al hacer clic izquierdo (`true`/`false`).
 - *aimClickDerecho*: Activa el aimbot al hacer clic derecho (`true`/`false`).
+- *lock*: Activa para usar en primera persona, Desactiva para usar cursor libre (`true`/`false`).
+  
+### Sección: *Offsets*
+- *nivelOffsetX*: Para centrar la mira en el objetivo o desviarla horizontalmente (-4-4).
+   Ej: `-4` = Extremo izquierdo.
+   Ej: `-3` = Mitad izquierda.
+   Ej: `-2` = 1/3 de la izquierda.
+   Ej: `-1` = 1/4 de la mitad izquierda.
+   Ej: `0` = Alineado a la mitad horizontalmente.
+   Ej: `1` = 1/4 de la mitad derecha.
+   Ej: `2` = 1/3 de la derecha.
+   Ej: `3` = Mitad derecha.
+   Ej: `4` = Extremo derecho.
+- *nivelOffsetY*: Para centrar la mira en el objetivo o desviarla verticalmente (-4-4).
+   Ej: `-4` = Extremo inferior.
+   Ej: `-3` = Mitad inferior.
+   Ej: `-2` = 1/3 inferior.
+   Ej: `-1` = 1/4 de la mitad inferior.
+   Ej: `0` = Alineado a la mitad verticalmente.
+   Ej: `1` = 1/4 de la mitad superior.
+   Ej: `2` = 1/3 superior.
+   Ej: `3` = Mitad superior.
+   Ej: `4` = Extremo superior.
+- *offsetX*: Compensación horizontal del punto de mira (0-15).
+- *offsetY*: Compensación vertical del punto de mira (0-50).
   
 **Paso 4: Desinstalación**
 * Cierra el script con `F12`.
