@@ -41,7 +41,6 @@
 - *intentos_busqueda*: Número de intentos de detección por ciclo (1-15).
   
 ### Sección: *General*
-- *estado_script*: Estado inicial del script (`true`/`false`).
 - *aimVelocidadX*: **Velocidad horizontal del aimbot (1-100).**  
   Ej: `60` = 60% de velocidad.
 - *aimVelocidadY*: **Velocidad vertical del aimbot (1-100).**  
