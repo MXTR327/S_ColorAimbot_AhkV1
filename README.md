@@ -35,6 +35,7 @@
 
 ### Sección: *Experimentos*
 - *desactivar_escalado_dpi*: Mejora rendimiento en pantallas HD (`true`/`false`).
+- *prediccionMS*: Prediccion de posicion a futuro en milisegundos (1-50).
 - *aimAntiDetection*: Añade variabilidad aleatoria al movimiento evitando deteccion de anticheats (`true`/`false`).
 - *aimHumanizacion*: Limita la velocidad máxima del aimbot para parecer humano (`true`/`false`).
 - *aimVelocidadHumanizacion*: Velocidad del humanizador (1-10)
